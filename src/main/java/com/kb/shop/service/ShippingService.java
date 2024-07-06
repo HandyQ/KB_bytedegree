@@ -11,6 +11,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @Service
+@AllArgsConstructor
 public class ShippingService {
   
   private final ShippingRepository ShippingRepository;
