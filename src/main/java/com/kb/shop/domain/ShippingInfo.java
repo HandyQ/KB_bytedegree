@@ -15,7 +15,15 @@ public class ShippingInfo {
     private Long id;
 
     // Order id
+    @Column(name = "orderId", nullable = false)
+    private Long order;
+    
     // OrderItem id
+    @Column(name = "orderItemId", nullable = false)
+    private Long item;
+    
     // shippingStatus
+	@Column(nullable = false)
+    private Boolean completed;
 
 }
