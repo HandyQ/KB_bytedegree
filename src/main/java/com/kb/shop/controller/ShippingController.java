@@ -1,5 +1,16 @@
 package com.kb.shop.controller;
 
+import lombok.AllArgsConstructor;
+import com.kb.shop.domain.ShippingInfo;
+import com.kb.shop.service;
+import org.example.repository.ShippingRepository;
+import org.springframework.util.ObjectUtils;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class ShippingController {
 	
     private final ShippingService service;
