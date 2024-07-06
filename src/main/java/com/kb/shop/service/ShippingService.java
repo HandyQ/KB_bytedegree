@@ -1,8 +1,7 @@
 package com.kb.shop.service;
 
 import lombok.AllArgsConstructor;
-import org.example.model.ShippingEntity;
-import org.example.model.ShippingRequest;
+import com.kb.shop.domain.ShippingInfo;
 import org.example.repository.ShippingRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
